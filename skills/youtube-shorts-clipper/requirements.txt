@@ -1,0 +1,10 @@
+yt-dlp>=2024.1.1
+faster-whisper>=1.0.0
+# faster-whisper's built-in audio decoder breaks with PyAV 14+;
+# transcribe.py decodes WAV itself, but pin av anyway for safety.
+av>=10,<14
+numpy>=1.26
+google-api-python-client>=2.100.0
+google-auth-oauthlib>=1.2.0
+python-dotenv>=1.0.0
+requests>=2.31.0

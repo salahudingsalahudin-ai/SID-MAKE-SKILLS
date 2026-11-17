@@ -87,7 +87,11 @@ it by picking the right skill from `skills/` and following it.
   `explain-interface`, `build-design`, `ui-ux-engineer`
 - Motion & video: `web-motion-auditor`, `remotion-video-agent` — plus
   `site-motion-excellence-director`, `motion-director`,
-  `generative-media-director`, `ai-video-generator`, `ffmpeg`
+  `generative-media-director`, `ai-video-generator`, `ffmpeg`,
+  `youtube-shorts-clipper`
+- YouTube creator: `yt-audit`, `yt-chapters`, `yt-comment`, `yt-edit`,
+  `yt-package`, `yt-plan`, `yt-retention`, `yt-script`, `yt-seo`,
+  `yt-shorts`, `yt-viral`, `youtube`, `youtube-seo-optimizer`
 - 3D & model design: `blender-web-3d`, `3dassets` — plus
   `blender-modeling`, `blender-animation`, `blender-rendering`,
   `blender-materials`, `blender-lighting`, `blender-cameras`,

@@ -1,6 +1,6 @@
 # Sid Agent Skills — the all-skills agent bundle
 
-One agent, **159 skills**, covering everything Sid works on: RotiAI outreach and
+One agent, **173 skills**, covering everything Sid works on: RotiAI outreach and
 social media, freelance web development and QA testing, graphics and 3D design,
 motion and video, and general assistant work — plus a thinking/reasoning
 workflow that makes the agent plan before it builds.
@@ -20,7 +20,7 @@ Then point your agent at this folder (for example, copy `skills/` into
 `~/.claude/skills/`, `.claude/skills/`, or any agent that reads `SKILL.md`
 folders), and read `AGENTS.md` for how the agent should behave.
 
-## Skill list (159)
+## Skill list (173)
 
 ### Thinking & reasoning — plan before you build
 
@@ -277,6 +277,25 @@ folders), and read `AGENTS.md` for how the agent should behave.
 |---|---|---|
 | ai-video-generator | Generate short-form videos with AI — script writing, text-to-speech narration, stock footage selection,… | [TerminalSkills/skills](https://github.com/TerminalSkills/skills) (Apache-2.0) |
 | ffmpeg | Transcode, convert, edit, and process audio and video with FFmpeg. Use when a user asks to convert video… | [TerminalSkills/skills](https://github.com/TerminalSkills/skills) (Apache-2.0) |
+| youtube-shorts-clipper | Turn a long YouTube video into vertical Shorts: download, transcribe, find hooks, cut 9:16 clips with captions, upload | Original work by Sid's agent (MIT) |
+
+### YouTube creator
+
+| Skill | What it does | Source |
+|---|---|---|
+| yt-audit | Audit a YouTube channel end to end — packaging, consistency, the first fifteen seconds, what to fix first | [Jakeschincariol/youtube-agent-skill](https://github.com/Jakeschincariol/youtube-agent-skill) (MIT) |
+| yt-chapters | Write YouTube chapters from a transcript, validated against YouTube's own rules so they render | [Jakeschincariol/youtube-agent-skill](https://github.com/Jakeschincariol/youtube-agent-skill) (MIT) |
+| yt-comment | Draft replies to YouTube comments in the creator's voice, triaged by which ones are worth answering | [Jakeschincariol/youtube-agent-skill](https://github.com/Jakeschincariol/youtube-agent-skill) (MIT) |
+| yt-edit | Turn a transcript into an edit decision list — dead air, filler cues and retakes, with timecodes | [Jakeschincariol/youtube-agent-skill](https://github.com/Jakeschincariol/youtube-agent-skill) (MIT) |
+| yt-package | Write and lint the title and thumbnail as one pairing, checking truncation, duplication and vagueness | [Jakeschincariol/youtube-agent-skill](https://github.com/Jakeschincariol/youtube-agent-skill) (MIT) |
+| yt-plan | Plan a week or a month of uploads — what to post, when, and in what order | [Jakeschincariol/youtube-agent-skill](https://github.com/Jakeschincariol/youtube-agent-skill) (MIT) |
+| yt-retention | Read a retention export, find where viewers actually leave, then say what to change | [Jakeschincariol/youtube-agent-skill](https://github.com/Jakeschincariol/youtube-agent-skill) (MIT) |
+| yt-script | Write a video script from an idea — hook options off 21 formulas, scored, then the full spoken script | [Jakeschincariol/youtube-agent-skill](https://github.com/Jakeschincariol/youtube-agent-skill) (MIT) |
+| yt-seo | Write the description, tags and search-facing text for a video, aimed at the query a real person types | [Jakeschincariol/youtube-agent-skill](https://github.com/Jakeschincariol/youtube-agent-skill) (MIT) |
+| yt-shorts | Find the Shorts hiding inside a long video and write them, using the transcript to pick moments | [Jakeschincariol/youtube-agent-skill](https://github.com/Jakeschincariol/youtube-agent-skill) (MIT) |
+| yt-viral | Find what is working in a niche on YouTube and rank it by how far each video beat its own channel | [Jakeschincariol/youtube-agent-skill](https://github.com/Jakeschincariol/youtube-agent-skill) (MIT) |
+| youtube | All-in-one YouTube creator skill: audits, video SEO, retention scripts, hooks, thumbnails, Shorts, analytics, monetization | [AgriciDaniel/claude-youtube](https://github.com/AgriciDaniel/claude-youtube) (MIT) |
+| youtube-seo-optimizer | Audit title, description, tags, hashtags and chapters — 0-100 SEO score, fixes and tag suggestions, runs locally | Original work by Sid's agent (MIT) — clean-room build; upstream repo ships no working code |
 
 ### System design
 
@@ -309,6 +328,11 @@ licence file. Upstream repos:
 - https://github.com/TerminalSkills/skills — Apache-2.0
 - https://github.com/JPeetz/agent-skills — MIT (per-skill licence files)
 - https://github.com/RobLe3/cc-blender-skill — MIT
+- https://github.com/Jakeschincariol/youtube-agent-skill — MIT (fetched 2026-11-18)
+- https://github.com/AgriciDaniel/claude-youtube — MIT (fetched 2026-11-18)
+- https://github.com/BankerInterface/youtube-seo-optimizer — MIT licence file,
+  but the repo ships only stub files; the `youtube-seo-optimizer` skill in this
+  bundle is a clean-room implementation of the features its README describes
 
 ## What was deliberately left out
 
@@ -345,6 +369,11 @@ licence file. Upstream repos:
 - **anthropics/skills `doc-coauthoring`** — still no licence file in its
   folder, so it stays excluded. `academy-guide` is a learning-hub guide, not
   a task skill, so it was left out too.
+- **BankerInterface/youtube-seo-optimizer** — MIT licence, but the repo is a
+  stub: no working code, and its README pushes an external "Core Update Pack"
+  .exe download (do not download or run it). The `youtube-seo-optimizer`
+  skill in this bundle is a fresh clean-room implementation of the features
+  its README describes, not a copy of that repo.
 
 ## Layout
 
