@@ -60,17 +60,60 @@ it by picking the right skill from `skills/` and following it.
   `verification-before-completion`, `writing-skills`
 - Web dev: `frontend-design`, `webapp-testing`, `skill-creator`,
   `mcp-builder`, `tailwind-best-practices`, `api-design-patterns`,
-  `web-design-guidelines`
+  `web-design-guidelines` — plus `typescript-react-patterns`,
+  `technical-debt`, `state-management`, `react-vite-best-practices`,
+  `project-docs`, `prd-writing`, `prd-creation`, `clean-code-principles`,
+  `code-slop`, `laravel-best-practices`, `wordpress-headless-expert`,
+  `diagram-as-code`, `readme-generator`, `requesting-code-review`,
+  `receiving-code-review`, `safe-refactor`
 - QA testing: `testing-best-practices`, `e2e-playwright-testing`
-  (plus `webapp-testing` above)
+  (plus `webapp-testing` above) — plus `test-automation`,
+  `test-pyramid-audit`, `qa-test-plan`, `bug-investigation`,
+  `visual-regression-testing`, `debugging-and-error-recovery`
 - Outreach & social: `roti-ai-outreach`, `social-media-posting`,
   `seo-optimization`, `content-strategy`, `keyword-research`,
   `analytics-reporting`, `seo-best-practices`
+- Sales, business & productivity: `sales-email-sequences`,
+  `proposal-generation`, `lead-scoring`, `go-to-market-launch`,
+  `project-management`, `file-organization`
+- Writing & content: `technical-writing`, `proofreading`, `copywriting`,
+  `blog-post-writing`, `better-writing`, `summarization`, `deep-research`,
+  `fact-checking`, `discernment-nudge`
+- Documents & spreadsheets: `pdf`, `pptx`, `xlsx`, `xlsx-wrangler`
 - Graphics design: `brand-guidelines`, `canvas-design`, `algorithmic-art`,
   `theme-factory`, `web-artifacts-builder`, `interface-review`,
-  `better-colors`
-- Motion & video: `web-motion-auditor`, `remotion-video-agent`
-- 3D & model design: `blender-web-3d`, `3dassets`
+  `better-colors` — plus `better-ui`, `better-typography`, `better-layout`,
+  `better-interface`, `better-accessibility`, `state-machine`,
+  `explain-interface`, `build-design`, `ui-ux-engineer`
+- Motion & video: `web-motion-auditor`, `remotion-video-agent` — plus
+  `site-motion-excellence-director`, `motion-director`,
+  `generative-media-director`, `ai-video-generator`, `ffmpeg`
+- 3D & model design: `blender-web-3d`, `3dassets` — plus
+  `blender-modeling`, `blender-animation`, `blender-rendering`,
+  `blender-materials`, `blender-lighting`, `blender-cameras`,
+  `blender-export`, `blender-pro-workflow`, `blender-scripting`,
+  `threejs`, `babylonjs`, `web-3d-graphics-expert`
+- Automation: `task-automation`, `workflow-automation`, `scheduled-jobs`,
+  `scripting-automation`, `zapier`, `make-com`, `n8n`, `cron`,
+  `browser-use`, `web-scraper`, `n8n-automation-expert`, `n8n-api-shape`,
+  `computer-use-and-browser-agents`
+- Agent-building & multi-agent: `subagent-driven-development`,
+  `dispatching-parallel-agents`, `executing-plans`, `agent-builder`,
+  `swarm`, `multi-agent-orchestration`, `agent-memory`,
+  `agent-memory-management`, `agentic-eval`, `ai-agent-architecture`,
+  `ai-llm-integration-expert`, `mcp-server-architect`,
+  `mcp-server-building`, `vector-db-rag-expert`,
+  `self-evolving-memory-graph`, `prompt-engineering-concepts`,
+  `ai-prompt-engineering-expert`, `token-optimizer`, `crewai`, `langgraph`
+- DevOps & infrastructure: `ci-pipelines`, `deployment-strategies`,
+  `terraform`, `terraform-modules`, `github-actions-workflows`,
+  `incident-response`, `secrets-management`, `maintenance`,
+  `git-workflow`, `using-git-worktrees`, `finishing-a-development-branch`,
+  `rollback-plan`, `incident-postmortem`, `deploy-checklist`
+- Security: `threat-modeling`, `security-audit`, `security-auditor`,
+  `secrets-hygiene`, `security-review`
+- System design: `sde-system-design-method`,
+  `sde-scalability-horizontal-scaling`, `sde-refactoring`
 - General assistant: `internal-comms`, `claude-api`, `slack-gif-creator`,
   `docx`
 
