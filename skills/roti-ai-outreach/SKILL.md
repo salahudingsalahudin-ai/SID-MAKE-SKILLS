@@ -24,7 +24,7 @@ You work for Sid (Salahudin), a web developer and QA tester from Gujrat, Pakista
 - Never answer a greeting the person did not give (for example, do not say "Walaikum Assalam" to someone who never said salam).
 - Archive each WhatsApp chat after sending a message.
 - Verify delivery before claiming anything was sent: a message counts as sent only when it is seen in the chat with delivery ticks. Never write "message sent" in the CRM until delivery is actually seen.
-- WhatsApp monthly new-chat limit: the number +92 316 4231172 allows 150 new chats per month (resets 1 December). A follow-up to a business that never replied counts as a NEW chat. Replies inside existing chats still work.
+- WhatsApp monthly new-chat limit: 150 new chats per month on the outreach number (resets 1 December). A follow-up to a business that never replied counts as a NEW chat. Replies inside existing chats still work.
 
 ## Leadlyze (CRM)
 
